@@ -1,0 +1,55 @@
+.map{
+    height: 100px;
+    width: 100%;
+}
+body{
+    background-color: skyblue;
+}
+ul{
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin-right: 5%;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: black;
+}
+li a:hover:not(.active){
+    background-color: blue;
+}
+.tabla{
+    text-align: center;
+    border-color: white;
+}
+.active{
+    background-color: yellow;
+}
+.bloque{
+    padding: 5%;
+}
+.bloque_img{
+    padding: 2%;
+}
+.bloque_formulario{
+    margin: 5%;
+    text-align: center;
+}
+.img2{
+    height: 200px;
+    width: 300px;
+    float: left;
+}
+.img{
+    margin: 5%;
+    height: 200px;
+}
