@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(146, 76, 76);
+}
+.card{
+    text-align: center;
+    border: 10px rgb(185, 166, 166) ridge;
+}
+.card img{
+    margin: 10px;
+    align-items: center;
+}
+img{
+    height: auto;
+    width: auto;
+}
+.h1{
+    background-color: rgb(20, 108, 241);
+    padding: 1rem;
+    text-align: center;
+}
