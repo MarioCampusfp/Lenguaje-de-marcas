@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Curriculum</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacta.html">Contacta</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h2>Formulario de Contacto</h2>
+        <form id="contactForm" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre/Empresa</label>
+                <input type="text" class="form-control" id="name" required minlength="3" pattern="[^0-9]+">
+                <div class="invalid-feedback">Introduce al menos 3 caracteres (no solo números).</div>
+            </div>
+            <div class="mb-3">
+                <label for="sector" class="form-label">Sector/Profesión</label>
+                <input type="text" class="form-control" id="sector" required pattern="[A-Za-z\s]+">
+                <div class="invalid-feedback">Solo letras, al menos 3 caracteres.</div>
+            </div>
+            <div class="mb-3">
+                <label for="country" class="form-label">País</label>
+                <select class="form-select" id="country" required>
+                    <option value="">Selecciona un país</option>
+                    <option value="España">España</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Inglaterra">Inglaterra</option>
+                    <option value="Alemania">Alemania</option>
+                </select>
+                <div class="invalid-feedback">Selecciona un país válido.</div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+                <div class="invalid-feedback">Introduce un correo electrónico válido.</div>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="phone" required pattern="\d{8,12}">
+                <div class="invalid-feedback">Introduce un número de teléfono válido (8-12 dígitos).</div>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" required minlength="5"></textarea>
+                <div class="invalid-feedback">El mensaje debe contener al menos 5 palabras.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2024 Mario del Rey Moreno
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
