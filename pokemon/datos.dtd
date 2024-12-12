@@ -1,0 +1,7 @@
+<!ELEMENT pokemon_legentarios (pokemon+)>
+<!ELEMENT pokemon (generacion, nombre, tipo, primera_aparicion, debilidades)>
+<!ELEMENT generacion (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT primera_aparicion (#PCDATA)>
+<!ELEMENT debilidades (#PCDATA)>
