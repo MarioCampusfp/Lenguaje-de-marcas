@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tienda SYSTEM "file:/C:/Users/CampusFP/Desktop/mario/xml/tienda/tienda.dtd">
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/CampusFP/Desktop/mario/xml/tienda/tienda.xsl"?>
+<tienda>
+  <producto id="1">
+    <nombre>salchiichon</nombre>
+    <pvp>12</pvp>
+    <discripcion>salchichon iberico de salamanca</discripcion>
+    <stock>20</stock>
+    <iva>10</iva>
+  </producto>
+  <producto id="2">
+    <nombre>pechuga pavo</nombre>
+    <pvp>7</pvp>
+    <discripcion>pechuga de pavo al corte</discripcion>
+    <stock>32</stock>
+    <iva>10</iva>
+  </producto>
+  <producto id="3">
+    <nombre>jamon iberico</nombre>
+    <pvp>58</pvp>
+    <discripcion>producto iberico 5j</discripcion>
+    <stock>7</stock>
+    <iva>21</iva>
+  </producto>
+  <producto id="4">
+    <nombre>queso</nombre>
+    <pvp>12</pvp>
+    <discripcion>queso de cabra</discripcion>
+    <stock>46</stock>
+    <iva>21</iva>
+  </producto>
+  <producto id="5">
+    <nombre>chorizo iberico</nombre>
+    <pvp>25</pvp>
+    <discripcion>chorizo iberico de salamanca</discripcion>
+    <stock>30</stock>
+    <iva>10</iva>
+  </producto>
+</tienda>
