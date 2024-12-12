@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pokemon_legentarios SYSTEM "file:/C:/Users/CampusFP/Desktop/mario/xml/datos.dtd">
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/CampusFP/Desktop/mario/xml/pokemon.xsl"?>
+<pokemon_legentarios>
+  <pokemon>
+    <generacion>1ºgeneracio</generacion>
+    <nombre>mewtwo</nombre>
+    <tipo>psiquico</tipo>
+    <primera_aparicion>pokemon rojo/verde</primera_aparicion>
+    <debilidades>bicho</debilidades>
+  </pokemon>
+  
+  <pokemon>
+    <generacion>6ºgeneracion</generacion>
+    <nombre>yveltal</nombre>
+    <tipo>volador/siniestro</tipo>
+    <primera_aparicion>pokemon y</primera_aparicion>
+    <debilidades>roca</debilidades>
+  </pokemon>
+  
+  <pokemon>
+    <generacion>4ºgeneracion</generacion>
+    <nombre>dialga</nombre>
+    <tipo>acero/dragon</tipo>
+    <primera_aparicion>pokemon diamante</primera_aparicion>
+    <debilidades>tierra</debilidades>
+  </pokemon>
+</pokemon_legentarios>
