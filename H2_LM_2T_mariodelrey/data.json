@@ -1,0 +1,480 @@
+{
+    "2023": {
+        "Q1": [
+            {
+                "pedido_id": "001",
+                "fecha_compra": "2023-01-15",
+                "fecha_entrega": "2023-01-18",
+                "total_factura": 150.00,
+                "cliente": {
+                    "nombre": "Juan",
+                    "apellidos": "Pérez",
+                    "telefono": "123456789",
+                    "direccion": {
+                        "calle": "Calle Falsa 123",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "email": "juanperez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Pelota de tenis",
+                        "referencia": "P01",
+                        "precio": 20.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "C01",
+                        "precio": 50.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "pedido_id": "002",
+                "fecha_compra": "2023-02-05",
+                "fecha_entrega": "2023-02-08",
+                "total_factura": 200.00,
+                "cliente": {
+                    "nombre": "Maria",
+                    "apellidos": "Gomez",
+                    "telefono": "987654321",
+                    "direccion": {
+                        "calle": "Av. Gran Vía 23",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08001",
+                        "provincia": "Barcelona"
+                    },
+                    "email": "mariagomez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "R01",
+                        "precio": 35.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Arena para gatos",
+                        "referencia": "A01",
+                        "precio": 15.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "pedido_id": "003",
+                "fecha_compra": "2023-02-20",
+                "fecha_entrega": "2023-02-23",
+                "total_factura": 220.00,
+                "cliente": {
+                    "nombre": "Luis",
+                    "apellidos": "Fernandez",
+                    "telefono": "334455667",
+                    "direccion": {
+                        "calle": "Calle Mayor 5",
+                        "ciudad": "Bilbao",
+                        "codigo_postal": "48001",
+                        "provincia": "Vizcaya"
+                    },
+                    "email": "luisfernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para perros",
+                        "referencia": "C04",
+                        "precio": 25.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para perros",
+                        "referencia": "J02",
+                        "precio": 20.00,
+                        "unidades": 3
+                    }
+                ]
+            },
+            {
+                "pedido_id": "004",
+                "fecha_compra": "2023-03-01",
+                "fecha_entrega": "2023-03-04",
+                "total_factura": 160.00,
+                "cliente": {
+                    "nombre": "Elena",
+                    "apellidos": "Martinez",
+                    "telefono": "445566778",
+                    "direccion": {
+                        "calle": "Calle Luna 12",
+                        "ciudad": "Granada",
+                        "codigo_postal": "18001",
+                        "provincia": "Granada"
+                    },
+                    "email": "elenamartinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para gatos",
+                        "referencia": "C05",
+                        "precio": 40.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "R02",
+                        "precio": 40.00,
+                        "unidades": 1
+                    }
+                ]
+            },
+            {
+                "pedido_id": "005",
+                "fecha_compra": "2023-03-05",
+                "fecha_entrega": "2023-03-08",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Laura",
+                    "apellidos": "Sánchez",
+                    "telefono": "112233445",
+                    "direccion": {
+                        "calle": "Av. del Sol 10",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41001",
+                        "provincia": "Sevilla"
+                    },
+                    "email": "laurasanchez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Juguete para gatos",
+                        "referencia": "J01",
+                        "precio": 30.00,
+                        "unidades": 2
+                    }
+                ]
+            }
+        ],
+        "Q2": [
+            {
+                "pedido_id": "006",
+                "fecha_compra": "2023-04-10",
+                "fecha_entrega": "2023-04-12",
+                "total_factura": 120.00,
+                "cliente": {
+                    "nombre": "Carlos",
+                    "apellidos": "Martínez",
+                    "telefono": "223344556",
+                    "direccion": {
+                        "calle": "Calle Sol 45",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "email": "carlosmartinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Huesos para perros",
+                        "referencia": "H01",
+                        "precio": 30.00,
+                        "unidades": 3
+                    }
+                ]
+            },
+            {
+                "pedido_id": "007",
+                "fecha_compra": "2023-04-15",
+                "fecha_entrega": "2023-04-18",
+                "total_factura": 140.00,
+                "cliente": {
+                    "nombre": "Sofia",
+                    "apellidos": "Lopez",
+                    "telefono": "556677889",
+                    "direccion": {
+                        "calle": "Calle Estrella 20",
+                        "ciudad": "Malaga",
+                        "codigo_postal": "29001",
+                        "provincia": "Malaga"
+                    },
+                    "email": "sofialopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "C06",
+                        "precio": 50.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para gatos",
+                        "referencia": "J03",
+                        "precio": 20.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "pedido_id": "008",
+                "fecha_compra": "2023-05-01",
+                "fecha_entrega": "2023-05-04",
+                "total_factura": 200.00,
+                "cliente": {
+                    "nombre": "Miguel",
+                    "apellidos": "Garcia",
+                    "telefono": "667788990",
+                    "direccion": {
+                        "calle": "Calle Luna 30",
+                        "ciudad": "Alicante",
+                        "codigo_postal": "03001",
+                        "provincia": "Alicante"
+                    },
+                    "email": "miguelgarcia@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "R03",
+                        "precio": 60.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Comida para gatos",
+                        "referencia": "C07",
+                        "precio": 40.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "pedido_id": "009",
+                "fecha_compra": "2023-05-10",
+                "fecha_entrega": "2023-05-13",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Lucia",
+                    "apellidos": "Hernandez",
+                    "telefono": "778899001",
+                    "direccion": {
+                        "calle": "Calle Sol 50",
+                        "ciudad": "Murcia",
+                        "codigo_postal": "30001",
+                        "provincia": "Murcia"
+                    },
+                    "email": "luciahernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para gatos",
+                        "referencia": "C08",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para perros",
+                        "referencia": "J04",
+                        "precio": 20.00,
+                        "unidades": 3
+                    }
+                ]
+            },
+            {
+                "pedido_id": "010",
+                "fecha_compra": "2023-06-01",
+                "fecha_entrega": "2023-06-04",
+                "total_factura": 160.00,
+                "cliente": {
+                    "nombre": "David",
+                    "apellidos": "Martinez",
+                    "telefono": "889900112",
+                    "direccion": {
+                        "calle": "Calle Estrella 40",
+                        "ciudad": "Zaragoza",
+                        "codigo_postal": "50001",
+                        "provincia": "Zaragoza"
+                    },
+                    "email": "davidmartinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "C09",
+                        "precio": 50.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para gatos",
+                        "referencia": "J05",
+                        "precio": 20.00,
+                        "unidades": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "2024": {
+        "Q4": [
+            {
+                "pedido_id": "100",
+                "fecha_compra": "2024-10-30",
+                "fecha_entrega": "2024-11-02",
+                "total_factura": 250.00,
+                "cliente": {
+                    "nombre": "Ana",
+                    "apellidos": "Lopez",
+                    "telefono": "556677889",
+                    "direccion": {
+                        "calle": "Calle Luna 90",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41010",
+                        "provincia": "Sevilla"
+                    },
+                    "email": "analopez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Correa para perros",
+                        "referencia": "C02",
+                        "precio": 40.00,
+                        "unidades": 1
+                    },
+                    {
+                        "nombre": "Cama para gatos",
+                        "referencia": "C03",
+                        "precio": 60.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "pedido_id": "101",
+                "fecha_compra": "2024-11-05",
+                "fecha_entrega": "2024-11-08",
+                "total_factura": 220.00,
+                "cliente": {
+                    "nombre": "Pedro",
+                    "apellidos": "Gonzalez",
+                    "telefono": "667788990",
+                    "direccion": {
+                        "calle": "Calle Sol 100",
+                        "ciudad": "Madrid",
+                        "codigo_postal": "28001",
+                        "provincia": "Madrid"
+                    },
+                    "email": "pedrogonzalez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "C04",
+                        "precio": 50.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para gatos",
+                        "referencia": "J06",
+                        "precio": 20.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "pedido_id": "102",
+                "fecha_compra": "2024-11-15",
+                "fecha_entrega": "2024-11-18",
+                "total_factura": 200.00,
+                "cliente": {
+                    "nombre": "Marta",
+                    "apellidos": "Garcia",
+                    "telefono": "778899001",
+                    "direccion": {
+                        "calle": "Calle Estrella 200",
+                        "ciudad": "Barcelona",
+                        "codigo_postal": "08001",
+                        "provincia": "Barcelona"
+                    },
+                    "email": "martagarcia@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Rascador para gatos",
+                        "referencia": "R04",
+                        "precio": 60.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Comida para gatos",
+                        "referencia": "C05",
+                        "precio": 40.00,
+                        "unidades": 2
+                    }
+                ]
+            },
+            {
+                "pedido_id": "103",
+                "fecha_compra": "2024-12-01",
+                "fecha_entrega": "2024-12-04",
+                "total_factura": 180.00,
+                "cliente": {
+                    "nombre": "Raul",
+                    "apellidos": "Martinez",
+                    "telefono": "889900112",
+                    "direccion": {
+                        "calle": "Calle Sol 300",
+                        "ciudad": "Valencia",
+                        "codigo_postal": "46001",
+                        "provincia": "Valencia"
+                    },
+                    "email": "raulmartinez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Collar para gatos",
+                        "referencia": "C06",
+                        "precio": 30.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para perros",
+                        "referencia": "J07",
+                        "precio": 20.00,
+                        "unidades": 3
+                    }
+                ]
+            },
+            {
+                "pedido_id": "104",
+                "fecha_compra": "2024-12-10",
+                "fecha_entrega": "2024-12-13",
+                "total_factura": 160.00,
+                "cliente": {
+                    "nombre": "Sara",
+                    "apellidos": "Hernandez",
+                    "telefono": "990011223",
+                    "direccion": {
+                        "calle": "Calle Estrella 400",
+                        "ciudad": "Sevilla",
+                        "codigo_postal": "41001",
+                        "provincia": "Sevilla"
+                    },
+                    "email": "sarahernandez@email.com"
+                },
+                "productos": [
+                    {
+                        "nombre": "Comida para perros",
+                        "referencia": "C07",
+                        "precio": 50.00,
+                        "unidades": 2
+                    },
+                    {
+                        "nombre": "Juguete para gatos",
+                        "referencia": "J08",
+                        "precio": 20.00,
+                        "unidades": 2
+                    }
+                ]
+            }
+        ]
+    }
+}
