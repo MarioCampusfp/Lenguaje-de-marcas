@@ -1,0 +1,1026 @@
+{
+  "2023": {
+    "Q1": [
+      
+      {
+          "orderNumber": "2023-Q1-1",
+          "purchaseDate": "2023-01-10",
+          "deliveryDate": "2023-01-15",
+          "invoiceTotal": 150.00,
+          "customer": {
+            "nombre": "Juan",
+            "apellidos": "Pérez",
+            "telefono": "600111222",
+            "direccion": {
+              "calle": "Calle A",
+              "ciudad": "Madrid",
+              "codigoPostal": "28001",
+              "provincia": "Madrid"
+            },
+            "email": "juan.perez@example.com"
+          },
+          "product": {
+            "nombre": "Alimento para perros",
+            "referencia": "REF1001",
+            "precio": 50.00,
+            "unidades": 3
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q1-2",
+          "purchaseDate": "2023-01-20",
+          "deliveryDate": "2023-01-25",
+          "invoiceTotal": 80.00,
+          "customer": {
+            "nombre": "María",
+            "apellidos": "Gómez",
+            "telefono": "600333444",
+            "direccion": {
+              "calle": "Calle B",
+              "ciudad": "Barcelona",
+              "codigoPostal": "08001",
+              "provincia": "Barcelona"
+            },
+            "email": "maria.gomez@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para gatos",
+            "referencia": "REF1002",
+            "precio": 40.00,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q1-3",
+          "purchaseDate": "2023-02-05",
+          "deliveryDate": "2023-02-10",
+          "invoiceTotal": 120.00,
+          "customer": {
+            "nombre": "Juan",
+            "apellidos": "Pérez",
+            "telefono": "600111222",
+            "direccion": {
+              "calle": "Calle A",
+              "ciudad": "Madrid",
+              "codigoPostal": "28001",
+              "provincia": "Madrid"
+            },
+            "email": "juan.perez@example.com"
+          },
+          "product": {
+            "nombre": "Collar para perros",
+            "referencia": "REF1003",
+            "precio": 60.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q1-4",
+          "purchaseDate": "2023-02-20",
+          "deliveryDate": "2023-02-25",
+          "invoiceTotal": 200.00,
+          "customer": {
+            "nombre": "Laura",
+            "apellidos": "Martínez",
+            "telefono": "600555666",
+            "direccion": {
+              "calle": "Calle C",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41001",
+              "provincia": "Sevilla"
+            },
+            "email": "laura.martinez@example.com"
+          },
+          "product": {
+            "nombre": "Cama para mascotas",
+            "referencia": "REF1004",
+            "precio": 200.00,
+            "unidades": 1
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q1-5",
+          "purchaseDate": "2023-03-01",
+          "deliveryDate": "2023-03-05",
+          "invoiceTotal": 90.00,
+          "customer": {
+            "nombre": "Pedro",
+            "apellidos": "Ramírez",
+            "telefono": "600777888",
+            "direccion": {
+              "calle": "Calle D",
+              "ciudad": "Valencia",
+              "codigoPostal": "46001",
+              "provincia": "Valencia"
+            },
+            "email": "pedro.ramirez@example.com"
+          },
+          "product": {
+            "nombre": "Arena para gatos",
+            "referencia": "REF1005",
+            "precio": 30.00,
+            "unidades": 3
+          },
+          "recurrente": true
+      }
+    ],
+    "Q2": [
+      
+      {
+          "orderNumber": "2023-Q2-1",
+          "purchaseDate": "2023-04-10",
+          "deliveryDate": "2023-04-15",
+          "invoiceTotal": 110.00,
+          "customer": {
+            "nombre": "Ana",
+            "apellidos": "López",
+            "telefono": "600888999",
+            "direccion": {
+              "calle": "Calle E",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48001",
+              "provincia": "Bizkaia"
+            },
+            "email": "ana.lopez@example.com"
+          },
+          "product": {
+            "nombre": "Rascador para gatos",
+            "referencia": "REF2001",
+            "precio": 55.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q2-2",
+          "purchaseDate": "2023-04-20",
+          "deliveryDate": "2023-04-25",
+          "invoiceTotal": 95.00,
+          "customer": {
+            "nombre": "Carlos",
+            "apellidos": "Sánchez",
+            "telefono": "600111333",
+            "direccion": {
+              "calle": "Calle F",
+              "ciudad": "Madrid",
+              "codigoPostal": "28002",
+              "provincia": "Madrid"
+            },
+            "email": "carlos.sanchez@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para perros",
+            "referencia": "REF2002",
+            "precio": 47.50,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q2-3",
+          "purchaseDate": "2023-05-05",
+          "deliveryDate": "2023-05-10",
+          "invoiceTotal": 130.00,
+          "customer": {
+            "nombre": "Ana",
+            "apellidos": "López",
+            "telefono": "600888999",
+            "direccion": {
+              "calle": "Calle E",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48001",
+              "provincia": "Bizkaia"
+            },
+            "email": "ana.lopez@example.com"
+          },
+          "product": {
+            "nombre": "Alimento para gatos",
+            "referencia": "REF2003",
+            "precio": 65.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q2-4",
+          "purchaseDate": "2023-05-15",
+          "deliveryDate": "2023-05-20",
+          "invoiceTotal": 180.00,
+          "customer": {
+            "nombre": "Elena",
+            "apellidos": "García",
+            "telefono": "600444555",
+            "direccion": {
+              "calle": "Calle G",
+              "ciudad": "Valencia",
+              "codigoPostal": "46002",
+              "provincia": "Valencia"
+            },
+            "email": "elena.garcia@example.com"
+          },
+          "product": {
+            "nombre": "Cama para mascotas",
+            "referencia": "REF2004",
+            "precio": 180.00,
+            "unidades": 1
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q2-5",
+          "purchaseDate": "2023-06-01",
+          "deliveryDate": "2023-06-05",
+          "invoiceTotal": 100.00,
+          "customer": {
+            "nombre": "Luis",
+            "apellidos": "Hernández",
+            "telefono": "600222333",
+            "direccion": {
+              "calle": "Calle H",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41002",
+              "provincia": "Sevilla"
+            },
+            "email": "luis.hernandez@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para pájaros",
+            "referencia": "REF2005",
+            "precio": 50.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      }
+    ],
+    "Q3": [
+      
+      {
+          "orderNumber": "2023-Q3-1",
+          "purchaseDate": "2023-07-10",
+          "deliveryDate": "2023-07-15",
+          "invoiceTotal": 140.00,
+          "customer": {
+            "nombre": "Sofía",
+            "apellidos": "Ruiz",
+            "telefono": "600555777",
+            "direccion": {
+              "calle": "Calle I",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48002",
+              "provincia": "Bizkaia"
+            },
+            "email": "sofia.ruiz@example.com"
+          },
+          "product": {
+            "nombre": "Alimento para peces",
+            "referencia": "REF3001",
+            "precio": 70.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q3-2",
+          "purchaseDate": "2023-07-20",
+          "deliveryDate": "2023-07-25",
+          "invoiceTotal": 85.00,
+          "customer": {
+            "nombre": "Diego",
+            "apellidos": "Morales",
+            "telefono": "600666777",
+            "direccion": {
+              "calle": "Calle J",
+              "ciudad": "Madrid",
+              "codigoPostal": "28003",
+              "provincia": "Madrid"
+            },
+            "email": "diego.morales@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para roedores",
+            "referencia": "REF3002",
+            "precio": 42.50,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q3-3",
+          "purchaseDate": "2023-08-05",
+          "deliveryDate": "2023-08-10",
+          "invoiceTotal": 150.00,
+          "customer": {
+            "nombre": "Sofía",
+            "apellidos": "Ruiz",
+            "telefono": "600555777",
+            "direccion": {
+              "calle": "Calle I",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48002",
+              "provincia": "Bizkaia"
+            },
+            "email": "sofia.ruiz@example.com"
+          },
+          "product": {
+            "nombre": "Decoración para acuarios",
+            "referencia": "REF3003",
+            "precio": 75.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q3-4",
+          "purchaseDate": "2023-08-15",
+          "deliveryDate": "2023-08-20",
+          "invoiceTotal": 190.00,
+          "customer": {
+            "nombre": "Roberto",
+            "apellidos": "Castro",
+            "telefono": "600888000",
+            "direccion": {
+              "calle": "Calle K",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41003",
+              "provincia": "Sevilla"
+            },
+            "email": "roberto.castro@example.com"
+          },
+          "product": {
+            "nombre": "Cama para roedores",
+            "referencia": "REF3004",
+            "precio": 95.00,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q3-5",
+          "purchaseDate": "2023-09-01",
+          "deliveryDate": "2023-09-05",
+          "invoiceTotal": 105.00,
+          "customer": {
+            "nombre": "Claudia",
+            "apellidos": "Vega",
+            "telefono": "600999111",
+            "direccion": {
+              "calle": "Calle L",
+              "ciudad": "Valencia",
+              "codigoPostal": "46003",
+              "provincia": "Valencia"
+            },
+            "email": "claudia.vega@example.com"
+          },
+          "product": {
+            "nombre": "Comida para aves",
+            "referencia": "REF3005",
+            "precio": 35.00,
+            "unidades": 3
+          },
+          "recurrente": true
+      }
+    ],
+    "Q4": [
+      
+      {
+          "orderNumber": "2023-Q4-1",
+          "purchaseDate": "2023-10-10",
+          "deliveryDate": "2023-10-15",
+          "invoiceTotal": 160.00,
+          "customer": {
+            "nombre": "Miguel",
+            "apellidos": "Cano",
+            "telefono": "600222555",
+            "direccion": {
+              "calle": "Calle M",
+              "ciudad": "Barcelona",
+              "codigoPostal": "08002",
+              "provincia": "Barcelona"
+            },
+            "email": "miguel.cano@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para perros",
+            "referencia": "REF4001",
+            "precio": 80.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q4-2",
+          "purchaseDate": "2023-10-20",
+          "deliveryDate": "2023-10-25",
+          "invoiceTotal": 90.00,
+          "customer": {
+            "nombre": "Elena",
+            "apellidos": "García",
+            "telefono": "600444555",
+            "direccion": {
+              "calle": "Calle N",
+              "ciudad": "Madrid",
+              "codigoPostal": "28004",
+              "provincia": "Madrid"
+            },
+            "email": "elena.garcia@example.com"
+          },
+          "product": {
+            "nombre": "Alimento para gatos",
+            "referencia": "REF4002",
+            "precio": 45.00,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q4-3",
+          "purchaseDate": "2023-10-30",
+          "deliveryDate": "2023-11-04",
+          "invoiceTotal": 170.00,
+          "customer": {
+            "nombre": "Roberto",
+            "apellidos": "Gómez",
+            "telefono": "600555444",
+            "direccion": {
+              "calle": "Calle O",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41004",
+              "provincia": "Sevilla"
+            },
+            "email": "roberto.gomez@example.com"
+          },
+          "product": {
+            "nombre": "Juguete interactivo",
+            "referencia": "REF4003",
+            "precio": 85.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2023-Q4-4",
+          "purchaseDate": "2023-11-10",
+          "deliveryDate": "2023-11-15",
+          "invoiceTotal": 200.00,
+          "customer": {
+            "nombre": "Inés",
+            "apellidos": "Lira",
+            "telefono": "600333555",
+            "direccion": {
+              "calle": "Calle P",
+              "ciudad": "Madrid",
+              "codigoPostal": "28005",
+              "provincia": "Madrid"
+            },
+            "email": "ines.lira@example.com"
+          },
+          "product": {
+            "nombre": "Cama ortopédica",
+            "referencia": "REF4004",
+            "precio": 200.00,
+            "unidades": 1
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2023-Q4-5",
+          "purchaseDate": "2023-11-20",
+          "deliveryDate": "2023-11-25",
+          "invoiceTotal": 95.00,
+          "customer": {
+            "nombre": "Diego",
+            "apellidos": "Martín",
+            "telefono": "600777111",
+            "direccion": {
+              "calle": "Calle Q",
+              "ciudad": "Valencia",
+              "codigoPostal": "46004",
+              "provincia": "Valencia"
+            },
+            "email": "diego.martin@example.com"
+          },
+          "product": {
+            "nombre": "Accesorio para acuarios",
+            "referencia": "REF4005",
+            "precio": 95.00,
+            "unidades": 1
+          },
+          "recurrente": true
+      }
+    ]
+  },
+  "2024": {
+    "Q1": [
+      {
+          "orderNumber": "2024-Q1-1",
+          "purchaseDate": "2024-01-10",
+          "deliveryDate": "2024-01-15",
+          "invoiceTotal": 155.00,
+          "customer": {
+            "nombre": "Laura",
+            "apellidos": "Sanz",
+            "telefono": "600112233",
+            "direccion": {
+              "calle": "Calle R",
+              "ciudad": "Madrid",
+              "codigoPostal": "28006",
+              "provincia": "Madrid"
+            },
+            "email": "laura.sanz@example.com"
+          },
+          "product": {
+            "nombre": "Alimento premium para perros",
+            "referencia": "REF5001",
+            "precio": 55.00,
+            "unidades": 3
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q1-2",
+          "purchaseDate": "2024-01-20",
+          "deliveryDate": "2024-01-25",
+          "invoiceTotal": 85.00,
+          "customer": {
+            "nombre": "Manuel",
+            "apellidos": "Rojas",
+            "telefono": "600223344",
+            "direccion": {
+              "calle": "Calle S",
+              "ciudad": "Barcelona",
+              "codigoPostal": "08002",
+              "provincia": "Barcelona"
+            },
+            "email": "manuel.rojas@example.com"
+          },
+          "product": {
+            "nombre": "Juguete interactivo para gatos",
+            "referencia": "REF5002",
+            "precio": 42.50,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q1-3",
+          "purchaseDate": "2024-02-05",
+          "deliveryDate": "2024-02-10",
+          "invoiceTotal": 135.00,
+          "customer": {
+            "nombre": "Laura",
+            "apellidos": "Sanz",
+            "telefono": "600112233",
+            "direccion": {
+              "calle": "Calle R",
+              "ciudad": "Madrid",
+              "codigoPostal": "28006",
+              "provincia": "Madrid"
+            },
+            "email": "laura.sanz@example.com"
+          },
+          "product": {
+            "nombre": "Collar de alta gama",
+            "referencia": "REF5003",
+            "precio": 67.50,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q1-4",
+          "purchaseDate": "2024-02-20",
+          "deliveryDate": "2024-02-25",
+          "invoiceTotal": 210.00,
+          "customer": {
+            "nombre": "Sergio",
+            "apellidos": "Vega",
+            "telefono": "600334455",
+            "direccion": {
+              "calle": "Calle T",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41005",
+              "provincia": "Sevilla"
+            },
+            "email": "sergio.vega@example.com"
+          },
+          "product": {
+            "nombre": "Cama ortopédica para mascotas",
+            "referencia": "REF5004",
+            "precio": 210.00,
+            "unidades": 1
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q1-5",
+          "purchaseDate": "2024-03-01",
+          "deliveryDate": "2024-03-05",
+          "invoiceTotal": 95.00,
+          "customer": {
+            "nombre": "Elisa",
+            "apellidos": "Corredera",
+            "telefono": "600445566",
+            "direccion": {
+              "calle": "Calle U",
+              "ciudad": "Valencia",
+              "codigoPostal": "46005",
+              "provincia": "Valencia"
+            },
+            "email": "elisa.corredera@example.com"
+          },
+          "product": {
+            "nombre": "Arena ecológica para gatos",
+            "referencia": "REF5005",
+            "precio": 95.00,
+            "unidades": 1
+          },
+          "recurrente": true
+      }
+    ],
+    "Q2": [
+      {
+          "orderNumber": "2024-Q2-1",
+          "purchaseDate": "2024-04-10",
+          "deliveryDate": "2024-04-15",
+          "invoiceTotal": 120.00,
+          "customer": {
+            "nombre": "Víctor",
+            "apellidos": "López",
+            "telefono": "600556677",
+            "direccion": {
+              "calle": "Calle V",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48002",
+              "provincia": "Bizkaia"
+            },
+            "email": "victor.lopez@example.com"
+          },
+          "product": {
+            "nombre": "Rascador para gatos deluxe",
+            "referencia": "REF6001",
+            "precio": 60.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q2-2",
+          "purchaseDate": "2024-04-20",
+          "deliveryDate": "2024-04-25",
+          "invoiceTotal": 100.00,
+          "customer": {
+            "nombre": "Carmen",
+            "apellidos": "Díaz",
+            "telefono": "600667788",
+            "direccion": {
+              "calle": "Calle W",
+              "ciudad": "Madrid",
+              "codigoPostal": "28007",
+              "provincia": "Madrid"
+            },
+            "email": "carmen.diaz@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para perros interactivo",
+            "referencia": "REF6002",
+            "precio": 50.00,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q2-3",
+          "purchaseDate": "2024-05-05",
+          "deliveryDate": "2024-05-10",
+          "invoiceTotal": 140.00,
+          "customer": {
+            "nombre": "Víctor",
+            "apellidos": "López",
+            "telefono": "600556677",
+            "direccion": {
+              "calle": "Calle V",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48002",
+              "provincia": "Bizkaia"
+            },
+            "email": "victor.lopez@example.com"
+          },
+          "product": {
+            "nombre": "Alimento premium para gatos",
+            "referencia": "REF6003",
+            "precio": 70.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q2-4",
+          "purchaseDate": "2024-05-15",
+          "deliveryDate": "2024-05-20",
+          "invoiceTotal": 185.00,
+          "customer": {
+            "nombre": "Ramón",
+            "apellidos": "Gutiérrez",
+            "telefono": "600778899",
+            "direccion": {
+              "calle": "Calle X",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41006",
+              "provincia": "Sevilla"
+            },
+            "email": "ramon.gutierrez@example.com"
+          },
+          "product": {
+            "nombre": "Cama para mascotas extra cómoda",
+            "referencia": "REF6004",
+            "precio": 185.00,
+            "unidades": 1
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q2-5",
+          "purchaseDate": "2024-06-01",
+          "deliveryDate": "2024-06-05",
+          "invoiceTotal": 105.00,
+          "customer": {
+            "nombre": "Ana",
+            "apellidos": "Pascual",
+            "telefono": "600889900",
+            "direccion": {
+              "calle": "Calle Y",
+              "ciudad": "Valencia",
+              "codigoPostal": "46006",
+              "provincia": "Valencia"
+            },
+            "email": "ana.pascual@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para pájaros",
+            "referencia": "REF6005",
+            "precio": 52.50,
+            "unidades": 2
+          },
+          "recurrente": true
+      }
+    ],
+    "Q3": [
+      {
+          "orderNumber": "2024-Q3-1",
+          "purchaseDate": "2024-07-10",
+          "deliveryDate": "2024-07-15",
+          "invoiceTotal": 145.00,
+          "customer": {
+            "nombre": "Marcos",
+            "apellidos": "Fernández",
+            "telefono": "600991122",
+            "direccion": {
+              "calle": "Calle Z",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48003",
+              "provincia": "Bizkaia"
+            },
+            "email": "marcos.fernandez@example.com"
+          },
+          "product": {
+            "nombre": "Alimento para peces premium",
+            "referencia": "REF7001",
+            "precio": 72.50,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q3-2",
+          "purchaseDate": "2024-07-20",
+          "deliveryDate": "2024-07-25",
+          "invoiceTotal": 95.00,
+          "customer": {
+            "nombre": "Laura",
+            "apellidos": "Sanz",
+            "telefono": "600112233",
+            "direccion": {
+              "calle": "Calle R",
+              "ciudad": "Madrid",
+              "codigoPostal": "28006",
+              "provincia": "Madrid"
+            },
+            "email": "laura.sanz@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para mascotas",
+            "referencia": "REF7002",
+            "precio": 47.50,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q3-3",
+          "purchaseDate": "2024-08-05",
+          "deliveryDate": "2024-08-10",
+          "invoiceTotal": 135.00,
+          "customer": {
+            "nombre": "Marcos",
+            "apellidos": "Fernández",
+            "telefono": "600991122",
+            "direccion": {
+              "calle": "Calle Z",
+              "ciudad": "Bilbao",
+              "codigoPostal": "48003",
+              "provincia": "Bizkaia"
+            },
+            "email": "marcos.fernandez@example.com"
+          },
+          "product": {
+            "nombre": "Collar para mascotas",
+            "referencia": "REF7003",
+            "precio": 67.50,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q3-4",
+          "purchaseDate": "2024-08-15",
+          "deliveryDate": "2024-08-20",
+          "invoiceTotal": 195.00,
+          "customer": {
+            "nombre": "Isabel",
+            "apellidos": "Martínez",
+            "telefono": "600112244",
+            "direccion": {
+              "calle": "Calle AA",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41007",
+              "provincia": "Sevilla"
+            },
+            "email": "isabel.martinez@example.com"
+          },
+          "product": {
+            "nombre": "Cama para roedores deluxe",
+            "referencia": "REF7004",
+            "precio": 97.50,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q3-5",
+          "purchaseDate": "2024-09-01",
+          "deliveryDate": "2024-09-05",
+          "invoiceTotal": 110.00,
+          "customer": {
+            "nombre": "Carlos",
+            "apellidos": "Sánchez",
+            "telefono": "600223355",
+            "direccion": {
+              "calle": "Calle BB",
+              "ciudad": "Valencia",
+              "codigoPostal": "46007",
+              "provincia": "Valencia"
+            },
+            "email": "carlos.sanchez@example.com"
+          },
+          "product": {
+            "nombre": "Comida para aves premium",
+            "referencia": "REF7005",
+            "precio": 55.00,
+            "unidades": 2
+          },
+          "recurrente": true
+      }
+    ],
+    "Q4": [
+      {
+          "orderNumber": "2024-Q4-1",
+          "purchaseDate": "2024-10-10",
+          "deliveryDate": "2024-10-15",
+          "invoiceTotal": 165.00,
+          "customer": {
+            "nombre": "Miguel",
+            "apellidos": "Cano",
+            "telefono": "600334466",
+            "direccion": {
+              "calle": "Calle CC",
+              "ciudad": "Barcelona",
+              "codigoPostal": "08003",
+              "provincia": "Barcelona"
+            },
+            "email": "miguel.cano@example.com"
+          },
+          "product": {
+            "nombre": "Juguete para perros deluxe",
+            "referencia": "REF8001",
+            "precio": 82.50,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q4-2",
+          "purchaseDate": "2024-10-20",
+          "deliveryDate": "2024-10-25",
+          "invoiceTotal": 95.00,
+          "customer": {
+            "nombre": "Elena",
+            "apellidos": "García",
+            "telefono": "600445577",
+            "direccion": {
+              "calle": "Calle DD",
+              "ciudad": "Madrid",
+              "codigoPostal": "28008",
+              "provincia": "Madrid"
+            },
+            "email": "elena.garcia@example.com"
+          },
+          "product": {
+            "nombre": "Alimento para gatos premium",
+            "referencia": "REF8002",
+            "precio": 47.50,
+            "unidades": 2
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q4-3",
+          "purchaseDate": "2024-10-30",
+          "deliveryDate": "2024-11-04",
+          "invoiceTotal": 175.00,
+          "customer": {
+            "nombre": "Roberto",
+            "apellidos": "Gómez",
+            "telefono": "600556688",
+            "direccion": {
+              "calle": "Calle EE",
+              "ciudad": "Sevilla",
+              "codigoPostal": "41008",
+              "provincia": "Sevilla"
+            },
+            "email": "roberto.gomez@example.com"
+          },
+          "product": {
+            "nombre": "Juguete interactivo deluxe",
+            "referencia": "REF8003",
+            "precio": 87.50,
+            "unidades": 2
+          },
+          "recurrente": true
+      },
+      {
+          "orderNumber": "2024-Q4-4",
+          "purchaseDate": "2024-11-10",
+          "deliveryDate": "2024-11-15",
+          "invoiceTotal": 205.00,
+          "customer": {
+            "nombre": "Inés",
+            "apellidos": "Lira",
+            "telefono": "600667799",
+            "direccion": {
+              "calle": "Calle FF",
+              "ciudad": "Madrid",
+              "codigoPostal": "28009",
+              "provincia": "Madrid"
+            },
+            "email": "ines.lira@example.com"
+          },
+          "product": {
+            "nombre": "Cama ortopédica deluxe",
+            "referencia": "REF8004",
+            "precio": 205.00,
+            "unidades": 1
+          },
+          "recurrente": false
+      },
+      {
+          "orderNumber": "2024-Q4-5",
+          "purchaseDate": "2024-11-20",
+          "deliveryDate": "2024-11-25",
+          "invoiceTotal": 100.00,
+          "customer": {
+            "nombre": "Diego",
+            "apellidos": "Martín",
+            "telefono": "600778800",
+            "direccion": {
+              "calle": "Calle GG",
+              "ciudad": "Valencia",
+              "codigoPostal": "46008",
+              "provincia": "Valencia"
+            },
+            "email": "diego.martin@example.com"
+          },
+          "product": {
+            "nombre": "Accesorio para acuarios deluxe",
+            "referencia": "REF8005",
+            "precio": 100.00,
+            "unidades": 1
+          },
+          "recurrente": true
+      }
+    ]
+  }
+}

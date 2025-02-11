@@ -1,80 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de Mascotas</title>
-    <link rel="stylesheet" href="estilo.css">
+	<meta charset="UTF-8">
+	<title>Tienda de Artículos para Mascotas</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Listado de Pedidos y Productos</h1>
-    </header>
+	<header>
+		<h1>Listado de Pedidos</h1>
+	</header>
+	<section>
+		<table id="ordersTable">
+			<thead>
+				<tr>
+					<th>Nº Pedido</th>
+					<th>Fecha Compra</th>
+					<th>Fecha Entrega</th>
+					<th>Total Factura</th>
+					<th>Cliente</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Se llenará dinámicamente -->
+			</tbody>
+		</table>
+	</section>
 
-    <section id="pedidos">
-        <h2>Pedidos de 2023 y 2024</h2>
-        <table id="tabla_pedidos">
-            <thead>
-                <tr>
-                    <th>ID Pedido</th>
-                    <th>Cliente</th>
-                    <th>Fecha de Compra</th>
-                    <th>Total Factura</th>
-                    <th>Productos</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Los pedidos serán cargados aquí por JavaScript -->
-            </tbody>
-        </table>
-    </section>
+	<section>
+		<h2>Listado de Clientes</h2>
+		<table id="customersTable">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Apellidos</th>
+					<th>Teléfono</th>
+					<th>Dirección</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Se llenará dinámicamente -->
+			</tbody>
+		</table>
+	</section>
 
-    <section id="productos">
-        <h2>Productos Vendidos (Q1 2023 y Q4 2024)</h2>
-        <table id="tabla_productos">
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Referencia</th>
-                    <th>Precio</th>
-                    <th>Unidades</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Los productos serán cargados aquí por JavaScript -->
-            </tbody>
-        </table>
-    </section>
+	<section>
+		<h2>Factura (ejemplo)</h2>
+		<div id="invoice">
+			<!-- Se mostrará la factura de un pedido tomado del JSON -->
+		</div>
+	</section>
 
-    <section id="clientes">
-        <h2>Clientes</h2>
-        <table id="tabla_clientes">
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Apellidos</th>
-                    <th>Teléfono</th>
-                    <th>Dirección</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Los clientes serán cargados aquí por JavaScript -->
-            </tbody>
-        </table>
-    </section>
+	<section>
+		<h2>Productos vendidos en Q1 2023</h2>
+		<table id="productsQ1_2023">
+			<thead>
+				<tr>
+					<th>Producto</th>
+					<th>Referencia</th>
+					<th>Precio</th>
+					<th>Unidades</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Se llenará dinámicamente -->
+			</tbody>
+		</table>
+	</section>
 
-    <section id="factura">
-        <h2>Factura</h2>
-        <div id="detalle_factura">
-            <!-- Se mostrará la factura generada a partir de un pedido -->
-        </div>
-    </section>
+	<section>
+		<h2>Productos vendidos en Q4 2024</h2>
+		<table id="productsQ4_2024">
+			<thead>
+				<tr>
+					<th>Producto</th>
+					<th>Referencia</th>
+					<th>Precio</th>
+					<th>Unidades</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- Se llenará dinámicamente -->
+			</tbody>
+		</table>
+	</section>
 
-    <footer>
-        <p>&copy; 2025 Tienda de Mascotas</p>
-    </footer>
-
-    <script src="script.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
